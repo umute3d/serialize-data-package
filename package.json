@@ -1,0 +1,26 @@
+{
+  "name": "serialize-data-package",
+  "version": "1.1.1",
+  "description": "A package to serialize data by removing methods and non-serializable properties",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["serialize", "data", "json", "typescript"],
+  "author": "Ben Onome",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umute3d/serialize-data-package.git"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "@types/node": "^14.14.31"
+  }
+}
