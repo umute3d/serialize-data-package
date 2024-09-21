@@ -1,16 +1,16 @@
 # serialize-data-package
 
-A simple package to serialize data by removing methods and non-serializable properties.
+A TypeScript/JavaScript package to serialize data by removing methods and non-serializable properties.
 
 ## Installation
 
-```
+```bash
 npm install serialize-data-package
 ```
 
 ## Usage
 
-```javascript
+```typescript
 import { serializeData } from 'serialize-data-package';
 
 const data = [
@@ -25,7 +25,7 @@ console.log(serializedData);
 
 ## API
 
-### serializeData(datas)
+### serializeData(datas: any[]): any[]
 
 Serializes an array of data objects by removing methods and non-serializable properties.
 
@@ -35,3 +35,11 @@ Serializes an array of data objects by removing methods and non-serializable pro
 ## License
 
 MIT
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/umute3d/serialize-data-package/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
